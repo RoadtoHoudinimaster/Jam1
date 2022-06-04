@@ -1,0 +1,39 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Document\WorkSpace\Engine\UnrealEngine).
+  Creating makefile for HoudiniEnvironmentEditor (no existing makefile)
+  Creating makefile for UnrealHeaderTool (no existing makefile)
+  Waiting for 'git status' command to complete
+  Terminating git child process due to timeout
+  Parsing headers for HoudiniEnvironmentEditor
+    Running UnrealHeaderTool "D:\Document\WorkSpace\houdini\HoudiniEnvironment\HoudiniEnvironment.uproject" "D:\Document\WorkSpace\houdini\HoudiniEnvironment\Intermediate\Build\Win64\HoudiniEnvironmentEditor\Development\HoudiniEnvironmentEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="D:\Document\WorkSpace\Engine\UnrealEngine\Engine\Programs\UnrealBuildTool\Log_UHT.txt"
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for HoudiniEnvironmentEditor in 127.4175562 seconds
+  Creating makefile for ShaderCompileWorker (no existing makefile)
+  Building HoudiniEnvironmentEditor and ShaderCompileWorker...
+  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 7 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  ** For HoudiniEnvironmentEditor-Win64-Development **
+  HoudiniEnvironment.cpp (2:10.53 at +0:00)
+  HoudiniEnvironmentGameModeBase.cpp (2:35.00 at +2:10)
+  HoudiniEnvironment.init.gen.cpp (1:56.25 at +4:45)
+  HoudiniEnvironmentGameModeBase.gen.cpp (0:44.95 at +6:41)
+  UE4Editor-HoudiniEnvironment.dll (0:01.57 at +7:26)
+    正在创建库 D:\Document\WorkSpace\houdini\HoudiniEnvironment\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEnvironment\UE4Editor-HoudiniEnvironment.suppressed.lib 和对象 D:\Document\WorkSpace\houdini\HoudiniEnvironment\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEnvironment\UE4Editor-HoudiniEnvironment.suppressed.exp
+  UE4Editor-HoudiniEnvironment.lib (0:00.14 at +7:28)
+    正在创建库 D:\Document\WorkSpace\houdini\HoudiniEnvironment\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEnvironment\UE4Editor-HoudiniEnvironment.lib 和对象 D:\Document\WorkSpace\houdini\HoudiniEnvironment\Intermediate\Build\Win64\UE4Editor\Development\HoudiniEnvironment\UE4Editor-HoudiniEnvironment.exp
+  HoudiniEnvironmentEditor.target (0:01.45 at +7:28)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 450.64 seconds
+  Total execution time: 792.31 seconds

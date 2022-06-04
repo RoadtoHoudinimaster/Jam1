@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\HoudiniEnvironment.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{319875FE-3589-438B-BE93-107A3D25C9C7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoudiniEnvironment.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\HoudiniEnvironmentEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2637A150-33C7-4683-8635-94B9CB310B89}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\HoudiniEnvironment">
+      <UniqueIdentifier>{367CAFB9-7875-4E8C-B561-8508B0174B99}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\HoudiniEnvironment\HoudiniEnvironment.Build.cs">
+      <Filter>Source\HoudiniEnvironment</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\HoudiniEnvironment\HoudiniEnvironment.cpp">
+      <Filter>Source\HoudiniEnvironment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoudiniEnvironment\HoudiniEnvironment.h">
+      <Filter>Source\HoudiniEnvironment</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HoudiniEnvironment\HoudiniEnvironmentGameModeBase.cpp">
+      <Filter>Source\HoudiniEnvironment</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HoudiniEnvironment\HoudiniEnvironmentGameModeBase.h">
+      <Filter>Source\HoudiniEnvironment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

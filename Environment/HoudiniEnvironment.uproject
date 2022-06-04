@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{9B751014-4E74-981D-F3AF-4E86E65CA4BA}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "HoudiniEnvironment",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

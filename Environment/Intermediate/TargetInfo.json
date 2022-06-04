@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HoudiniEnvironment",
+			"Path": "D:\\Document\\WorkSpace\\houdini\\HoudiniEnvironment\\Source\\HoudiniEnvironment.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HoudiniEnvironmentEditor",
+			"Path": "D:\\Document\\WorkSpace\\houdini\\HoudiniEnvironment\\Source\\HoudiniEnvironmentEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

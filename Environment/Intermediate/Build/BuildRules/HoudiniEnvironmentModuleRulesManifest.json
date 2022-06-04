@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Document\\WorkSpace\\houdini\\HoudiniEnvironment\\Source\\HoudiniEnvironment\\HoudiniEnvironment.Build.cs",
+		"D:\\Document\\WorkSpace\\houdini\\HoudiniEnvironment\\Source\\HoudiniEnvironment.Target.cs",
+		"D:\\Document\\WorkSpace\\houdini\\HoudiniEnvironment\\Source\\HoudiniEnvironmentEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
